@@ -1,0 +1,35 @@
+finance-dashboard/
+├── public/
+├── src/
+│   ├── api/
+│   │   └── transactions.js
+│   │
+│   ├── store/
+│   │   ├── transactionStore.js
+│   │   └── roleStore.js
+│   │
+│   ├── components/
+│   │   ├── Sidebar.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── SummaryCard.jsx
+│   │   ├── TransactionRow.jsx
+│   │   ├── AddTransactionModal.jsx
+│   │   ├── EditTransactionModal.jsx
+│   │   ├── EmptyState.jsx
+│   │   └── charts/
+│   │       ├── BalanceTrendChart.jsx
+│   │       ├── SpendingPieChart.jsx
+│   │       └── IncomeExpenseBar.jsx
+│   │
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── Transactions.jsx
+│   │   └── Insights.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+└── vite.config.js
