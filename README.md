@@ -34,7 +34,6 @@ A simple and interactive finance dashboard to track income, expenses, and spendi
 ```bash
 # Clone the repo
 git clone https://github.com/Anuj8171/Finance-Dashboard.git
-
 # Install dependencies
 cd finance-dashboard
 npm install
