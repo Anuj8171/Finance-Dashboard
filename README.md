@@ -1,4 +1,4 @@
-# 💰 FinanceDash — Finance Dashboard
+#  FinanceDash — Finance Dashboard
 
 A simple and interactive finance dashboard to track income, expenses, and spending patterns.
 
@@ -33,7 +33,7 @@ A simple and interactive finance dashboard to track income, expenses, and spendi
 ##  Setup
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/finance-dashboard.git
+git clone https://github.com/Anuj8171/Finance-Dashboard.git
 
 # Install dependencies
 cd finance-dashboard
@@ -47,18 +47,20 @@ Open `http://localhost:5173`
 
 ---
 
-## 🔐 Roles
+## Roles
 
-| Feature   |                 | Viewer |  Admin  |
+| Feature | Viewer | Admin |
 |---|---|---|
-| View data |                 |  ✅  |  |  ✅  |
-| Add / Edit / Delete |       |  ❌  |  |  ✅  |
+| View data | ✅ | ✅ |
+| Add transaction | ❌ | ✅ |
+| Edit / Delete | ❌ | ✅ |
+
 
 Switch roles using the dropdown in the navbar.
 
 ---
 
-## 🌐 API
+##  API
 MockAPI.io is used as a mock backend.
 
 | Method | Endpoint | Action |
@@ -103,7 +105,7 @@ This means data is never lost on page refresh because it is stored on the server
 
 This approach is closer to how real production apps work compared to localStorage though being a free tier it has limitations such as maximum 100 objects per resource.
 
-## 💡 Notes
+##  Notes
 
 - Role switching is frontend only
 - Data pre-seeded with 30 transactions
