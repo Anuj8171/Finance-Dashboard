@@ -3,7 +3,7 @@
 A simple and interactive finance dashboard to track income, expenses, and spending patterns.
 
 ## 🔗 Live Demo
-[Add deployed link here]
+https://finance-dashboard-j6dsk1xdy-anujs-projects-a659882e.vercel.app/
 
 ---
 
